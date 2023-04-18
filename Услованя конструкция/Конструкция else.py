@@ -68,3 +68,29 @@
 #     print(f'Твой средний бал равен {"%.1f" % average}, надо подтянуть учебу!')
 # else:
 #     print(f'Твой средний ба3л равен {"%.1f" % average}, ЭТО ОЧЕНЬ ПЛОХО!')
+
+# num1 = int(input('Введите первое число: '))
+# num2 = int(input('Введите второе число: '))
+# num3 = int(input('Введите третье число: '))
+# if num1 > num2 and num1 > num3:
+#     print(f'{num1} - максимальное число')
+# elif num2 > num1 and num2 > num3:
+#     print(f'{num2} - максимальное число')
+# else:
+#     print(f'{num3} - максимальное число')
+
+# schoolboy = int(input('Введите количество школьников: '))
+# apples = int(input('Введите количество яблок: '))
+# div = apples // schoolboy
+# remain = apples % schoolboy
+# print(f'''Каждому школьнику достанется по {div} яблок.
+# В корзинке останется - {remain} яблок''')
+
+# salary = int(input('Введите заработную плату сотрудника за час работы: '))
+# norma = int(input('Введите норму часов: '))
+# coefficient = float(input('Введите коэфициент сверхурочного времени: '))
+# job = int(input('Введите количество часов которые проработал сотрудник: '))
+# if job > norma:
+#     print(f'Повышенная зарабатная плата сотрудника равна {int(job * salary * coefficient)} рублей')
+# else:
+#     print(f'Стандартная зарплата сотрудника приработе {job} часов равна {salary * job} рублей')
